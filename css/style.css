@@ -392,7 +392,7 @@ header {
 .section2 .swiper-pagination-bullet-active {
     color: #fff;
     opacity: 1;
-    width: 24%;
+    width: 26%;
     border-radius: 5px 5px 5px 5px;
     background: #905215;
 }
@@ -723,6 +723,9 @@ address .right {
         padding: 0 20px;
         box-sizing: border-box;
     }
+    .innerBox .logo{
+        width: 10%;
+    }
     .slider li:nth-child(2) {
         display: none;
     }
@@ -732,10 +735,17 @@ address .right {
 }
 @media screen and (max-width: 360px) {
     .innerBox .logo{
-        width: 10%;
+        width: 30%;
+    }
+    .innerBox .logo img{
+        width: 100%;
     }
     #nav{
         width: 40%;
+    }
+    .section1 .swiper-pagination-bullet,
+    .section2 .swiper-pagination-bullet{
+        font-size: 12px;
     }
     .textBox p img{
         left: 0;
